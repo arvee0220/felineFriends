@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Striped Cats';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Striped Cats'), url('fonts/StripedCatsItalicPersonalItalic-lg4eV.otf') format("opentype");
+}
+
+h1 {
+  font-family: 'Striped Cats';  
+  font-weight: 200;
+  color: rgb(2, 138, 250)
+}
