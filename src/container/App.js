@@ -10,9 +10,15 @@ const App = () => {
     const [search, setSearch] = useState("");
 
     const fetchData = async () => {
-        const res = await fetch("https://jsonplaceholder.typicode.com/users");
-        const data = await res.json();
-        setFelines(data);
+        try {
+            const res = await fetch(
+                "https://jsonplaceholder.typicode.com/users"
+            );
+            const data = await res.json();
+            setFelines(data);
+        } catch (error) {
+            console.log(error);
+        }
     };
 
     useEffect(() => {
