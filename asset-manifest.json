@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/felineFriends/static/css/main.60d1f4fe.css",
+    "main.js": "/felineFriends/static/js/main.d294648e.js",
+    "static/js/787.5256a643.chunk.js": "/felineFriends/static/js/787.5256a643.chunk.js",
+    "static/media/StripedCatsItalicPersonalItalic-lg4eV.otf": "/felineFriends/static/media/StripedCatsItalicPersonalItalic-lg4eV.a7b6571d0c49dd7c8479.otf",
+    "index.html": "/felineFriends/index.html",
+    "main.60d1f4fe.css.map": "/felineFriends/static/css/main.60d1f4fe.css.map",
+    "main.d294648e.js.map": "/felineFriends/static/js/main.d294648e.js.map",
+    "787.5256a643.chunk.js.map": "/felineFriends/static/js/787.5256a643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60d1f4fe.css",
+    "static/js/main.d294648e.js"
+  ]
+}
