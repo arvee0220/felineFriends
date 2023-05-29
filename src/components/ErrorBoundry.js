@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-const ErrorBoundary = (props) => {
+const ErrorBoundry = (props) => {
     const [hasError, setHasError] = useState(false);
+
+    const { children } = props;
 
     useEffect(() => {
         const handleErrors = (error, info) => {
@@ -15,7 +17,7 @@ const ErrorBoundary = (props) => {
         };
     }, []);
 
-    return hasError ? <h1>Ooops. That is not good</h1> : props.children;
+    return hasError ? <h1>Ooops. That is not good</h1> : children;
 };
 
-export default ErrorBoundary;
+export default ErrorBoundry;

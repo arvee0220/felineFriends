@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
 import SearchBox from "../components/SearchBox";
 import Cardlist from "../components/Cardlist";
 import Scroll from "../components/Scroll";
 import ErrorBoundry from "../components/ErrorBoundry";
+import "./App.css";
 
 const App = () => {
     const [felines, setFelines] = useState([]);
